@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>CHT</title>
+</head>
+<body>
+     
+    <section>
+        
+    </section>
+
+    <header class="header" id="header">
+       <nav class="nav container">
+           <div>
+                <a href="index.html" class="nav__logo">CHT</a>
+                <h5 class="home__educational">Administración de Consorcios</h5>
+           </div>
+          
+            <div class="nav__menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user' ></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bxs-contact' ></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <i class='bx bx-moon change-theme'id="theme-button" ></i>
+       </nav>
+
+    </header>
+
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                   <!--  <span class="home__greeting">Hola, soy </span> -->
+                    <h1 class="home__name">Gustavo Herrera</h1>
+                 <!--    <h3 class="home__educational">Administrador de Consorsocios</h3> -->
+                    <h4 class="home__educational">RPA 12439</h4>
+                    
+
+                    <a href="#about" class="button">Sobre Nosotros</a>
+                </div>
+
+                <img src="assets/images/stripy-builds.png" alt="cht_img">
+          
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+                <h1 class="about__title"> Sobre Nosotros</h1>
+             
+                <div class="about__data">
+                    <div class="about__info">
+
+                        <div class="about__box"></i>
+                            <i class='bx bx-bookmark-alt about__icon'></i>
+                            <h4 class="about__title">¿Quienes somos?</h4>
+                            <span class="about__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, possimus quis inventore vitae, officia cupiditate iste consequuntur sapiente cum temporibus alias asperiores quae laudantium repellat veniam aspernatur minima. Quas, autem.</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bxs-award about__icon'></i>
+                            <h4 class="about__title">Experincia</h4>
+                            <span class="about__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, possimus quis inventore vitae, officia cupiditate iste consequuntur sapiente cum temporibus alias asperiores quae laudantium repellat veniam aspernatur minima. Quas, autem.</span>
+
+                        </div>
+
+                        <div class="about__box">
+                            <i class='bx bx-briefcase about__icon'></i>
+                            <h4 class="about__title">Servicios</h4>
+                            <span class="about__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, possimus quis inventore vitae, officia cupiditate iste consequuntur sapiente cum temporibus alias asperiores quae laudantium repellat veniam aspernatur minima. Quas, autem.</span>
+
+                        </div>
+
+                    </div>
+ 
+                </div>
+                
+               
+        </section>
+
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Estemos en contacto</span>
+            <h1 class="section__title">Contacto</h1>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon' ></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card_data">info@chtadministraciones.ar</span>
+                            
+
+                            <a href="mailto:info@chtadministraciones.ar" target="_blank" class="contact__button">
+                                Escribeme <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon' ></i>
+
+                            <h3 class="contact__card-title">Telefono</h3>
+                            <span class="contact__card_data">011 44690597</span>
+
+                            <h3 class="contact__card-title">Celular</h3>
+                            <span class="contact__card_data">011 38318431</span>
+                            <!-- 
+                            <a href="https://api.whatsapp.com/send?phone=5491138318425&text=¡Hola, me gustaría obtener más información!" target="_blank" class="contact__button">
+                                Llamame <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <form id="form" action="https://formsubmit.co/paloherre3@gmail.com" class="contact__form" method="post" >
+                        <div class="contact__form-div">
+
+                            <label class="contact__form-tag" for="nombre">Nombre y Apellido</label>
+                            <input type="text" class="contact__form-input" name="nombre" id="nombre" placeholder="ej. Pablo Fernandez" required>
+                        </div> 
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag" for="email">Email</label>
+                            <input type="email" class="contact__form-input" name="email" id="email" placeholder="ej. example@example.com" required>
+                        </div> 
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag" for="telefono">Celular</label>
+                            <input type="text" class="contact__form-input" name="telefono" id="telefono" placeholder="ej. 112233445" required>
+                        </div>
+                        <div class="contact__form-div">
+                            <label class="contact__form-tag" for="asunto">Asunto</label>
+                            <input type="text" class="contact__form-input" name="asunto" id="asunto" placeholder="Consulta" required>
+                        </div>   
+                        <div class="contact__form-div contact__form-area"> 
+                            <label class="contact__form-tag " for="mensaje">Mensaje</label>
+                            <textarea class="contact__form-input" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Me gustaría solicitar un presupuesto..." required></textarea>
+                        </div>
+
+                        <button  type="submit" class="button">Enviar</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__container container footer__content">
+            <h1 class="footer__title">CHT</h1>
+            
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="#contact" class="footer__link">Contacto</a>
+                </li>
+            </ul>
+            <ul class="footer__social">
+                <a href="https://www.facebook.com/" class="footer__social-link"><i class='bx bxl-facebook-circle' ></i></a>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=5491138318432&text=Hola, me gustaria obtener más información!" class="footer__social-link"><i class='bx bxl-whatsapp' ></i></a>
+            </ul>
+            <span class="footer__copy">
+                <p>&#169; CHT 2022</p>
+            </span>
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+  
+</body>
+</html>
